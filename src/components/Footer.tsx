@@ -24,7 +24,7 @@ const Footer = () => {
     </div>
 
     <div className="col-span-2 col-start-1 row-start-5 flex flex-col items-start justify-start">
-      <button className="px-4 py-2 bg-white text-black text-sm rounded-3xl font-medium">BOOK A CALL</button>
+      <a target="_blank" href="https://mail.google.com/mail/?view=cm&to=contact@keilethcxst.com"  className="px-4 py-2 bg-white text-black text-sm rounded-3xl font-medium"> CONTACT US</a>
     </div>
 
     <div className="col-span-2  w-[50vw] font-britti row-span-2 col-start-3 row-start-1 flex flex-col">
@@ -57,9 +57,9 @@ const Footer = () => {
       <p className="text-lg 2xl:text-xl font-medium">Let's talk!</p>
       <p className="text-lg 2xl:text-xl  font-medium">Discuss about</p>
       <p className="text-lg 2xl:text-xl  font-medium 2xl:mb-8">your project.</p>
-      <button className="px-4 mt-4 py-2 2xl:mt-4 text-black font-britti font-medium bg-white rounded-full text-sm">
-        BOOK A CALL
-      </button>
+      <a target="_blank" href="https://mail.google.com/mail/?view=cm&to=contact@keilethcxst.com" className="px-4 mt-4 py-2 2xl:mt-4 text-black font-britti font-medium bg-white rounded-full text-sm">
+      CONTACT US
+      </a>
     </div>
 
     <div className="absolute bottom-2 left-1/2 mb-4  w-full text-start transform -translate-x-1/2 text-xs text-gray-400">

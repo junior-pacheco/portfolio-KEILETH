@@ -56,11 +56,12 @@ const Home = () => {
         </motion.p>
 
         <motion.a
-          href="#work"
+          target="_blank"
+          href="https://mail.google.com/mail/?view=cm&to=contact@keilethcxst.com" 
           className="inline-flex font-britti items-center text-lg border text-black bg-white px-6 py-3 rounded-full"
           variants={textVariants}
         >
-          BOOK A CALL
+          CONTACT US
         </motion.a>
       </motion.div>
     </motion.div>

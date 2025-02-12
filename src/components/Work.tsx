@@ -31,7 +31,7 @@ const projects = [
       "/img/Novum (3).jpg",
       "/img/Novum (4).jpg"
     ],
-    title: "NovumNovum",
+    title: "Novum",
     tools: ["Branding","logo"],
   },
   {

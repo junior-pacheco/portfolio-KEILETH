@@ -4,8 +4,33 @@
 
 @font-face {
   font-family: 'MiFuente';
-  src: url('/fonts/Britti-Sans-Medium.otf') format('opentype'),
-      url('/fonts/Britti-Sans-Regular.otf') format('opentype');
-  font-weight: normal;
+  src: url('/fonts/Britti-Sans-Regular.otf') format('opentype');
+  font-weight: 400; /* Regular */
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'MiFuente';
+  src: url('/fonts/Britti-Sans-Medium.otf') format('opentype');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+/* Scroll minimalista */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
 }

@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'MiFuente';
+  src: url('/fonts/Britti-Sans-Medium.otf') format('opentype'),
+      url('/fonts/Britti-Sans-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}

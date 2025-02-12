@@ -39,7 +39,7 @@ const Header = () => {
                 className="relative group text-base font-medium text-gray-300 hover:text-white flex items-center"
               >
                 <span className="relative h-[1.2em] overflow-hidden">
-                  <span className="block group-hover:animate-cylinder">{text}</span>
+                  <span className="block group-hover:animate-cylinder font-britti">{text}</span>
                 </span>
                 <span className="absolute left-0 bottom-[-8px] w-full h-[2px] bg-white rounded-full scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
               </a>

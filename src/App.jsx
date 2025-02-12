@@ -1,13 +1,16 @@
-import { useEffect, useState } from 'react';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Home from './components/Home';
-import Work from './components/Work';
+import { useEffect, useState } from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import Work from "./components/Work";
+
 const App = () => {
-  const [openMenu, setopenMenu] = useState(false)
-  const onOpenHandler = (data) => { 
-    setopenMenu(!data)
-   }
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const onOpenHandler = () => {
+    setOpenMenu((prev) => !prev); // Alterna el estado correctamente
+  };
+
   useEffect(() => {
     if (openMenu) {
       document.body.classList.add("overflow-hidden");
@@ -24,11 +27,12 @@ const App = () => {
     <div className="min-h-screen bg-slate-950">
       <Header open={openMenu} setopenMenu={onOpenHandler} />
       <main>
-        <Home/>
-        <Work hiddenWork={openMenu}/>
+        <Home />
+        <Work hiddenWork={openMenu} />
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
+
 export default App;

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import React from "react";
 
 const textVariants = {
   hidden: { opacity: 0, y: 30 },
@@ -13,6 +14,7 @@ const containerVariants = {
 const Home = () => {
   return (
     <motion.div
+      id="me"
       className="bg-[#0A0A0B] gap-2 text-white md:min-h-screen scrollbar-thin scrollbar-thumb 2xl:min-h-screen min-h-[65vh] flex flex-col lg:flex-row justify-center items-center p-4 lg:p-20"
       initial="hidden"
       animate="visible"

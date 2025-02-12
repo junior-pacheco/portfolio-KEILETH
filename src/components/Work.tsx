@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "react-loading-skeleton/dist/skeleton.css";
+import React from "react";
 
 const projects = [
   {
@@ -11,7 +12,7 @@ const projects = [
       "/img/DepthNation (1).jpg"
     ],
     title: "DepthNation",
-    tools: ["Adobe Illustrator", "Figma"],
+    tools: ["Branding","logo"],
   },
   {
     images: [
@@ -21,7 +22,7 @@ const projects = [
       "/img/Grafft (4).jpg"
     ],
     title: "Grafft",
-    tools: ["Adobe Illustrator", "Figma"],
+    tools: ["Branding","logo"],
   },
   {
     images: [
@@ -31,7 +32,7 @@ const projects = [
       "/img/Novum (4).jpg"
     ],
     title: "NovumNovum",
-    tools: ["Adobe Illustrator", "Figma"],
+    tools: ["Branding","logo"],
   },
   {
     images: [
@@ -41,7 +42,7 @@ const projects = [
       "/img/Recove (4).jpg"
     ],
     title: "Recove",
-    tools: ["Adobe Illustrator", "Figma"],
+    tools: ["Branding","logo"],
   },
   {
     images: [
@@ -55,15 +56,21 @@ const projects = [
       "/img/Logofolio V1 (8).jpg"
     ],
     title: "Logofolio V1",
-    tools: ["Adobe Illustrator", "Figma"],
+    tools: ["logos"],
   },
 ];
 
 
 import Skeleton from "react-loading-skeleton";
+type Project = {
+  images: string[];
+  title: string;
+  tools: string[];
+};
+
 
 const Work = ({ hiddenWork }) => {
-  const [selectedProject, setSelectedProject] = useState(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [loadingImages, setLoadingImages] = useState({});
 
   // Pre-cargar imágenes de portada
@@ -94,8 +101,8 @@ const Work = ({ hiddenWork }) => {
   }, [selectedProject]);
 
   return (
-    <div className="bg-[#0A0A0B] text-white min-h-screen flex flex-col items-center p-4 lg:p-20">
-      <h2 className="text-4xl font-britti font-bold mb-8">Work</h2>
+    <div id="work" className="bg-[#0A0A0B] text-white min-h-screen flex flex-col items-center p-4 lg:p-20">
+      <h2 className="text-4xl font-britti font-bold mb-8 self-start md:ms-24 2xl:ms-96">Work</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-5xl">
         {projects.map((project, index) => (
           <motion.div
@@ -179,7 +186,7 @@ const Work = ({ hiddenWork }) => {
                 >
                   <img
                     src={image}
-                    className="w-full h-72 object-cover rounded-lg transition-opacity duration-500"
+                    className="w-full h-72 rounded-lg object-contain transition-opacity duration-500"
                     onLoad={() => handleImageLoad(i)}
                   />
                 </motion.div>

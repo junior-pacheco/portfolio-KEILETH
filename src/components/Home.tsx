@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React from "react";
+import React ,{useState,useEffect} from "react";
 
 const textVariants = {
   hidden: { opacity: 0, y: 30 },
@@ -10,6 +10,29 @@ const containerVariants = {
   hidden: { opacity: 0 },
   visible: { opacity: 1, transition: { staggerChildren: 0.2 } },
 };
+
+const [contactLink, setContactLink] = useState("");
+
+useEffect(() => {
+  // Detectar si el usuario está en un dispositivo móvil
+  const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  const email = "contact@keilethcxst.com";
+  const subject = encodeURIComponent("Brand & Web Design Inquiry");
+  const body = encodeURIComponent(
+    "Hello Keileth,\n\nI am interested in your Brand & Web Design services. Can we discuss further?\n\nThank you!"
+  );
+
+  if (isMobile) {
+    // Enlace directo a la app de correo en móviles
+    setContactLink(`mailto:${email}?subject=${subject}&body=${body}`);
+  } else {
+    // Enlace a Gmail con mensaje prellenado en PC
+    setContactLink(
+      `https://mail.google.com/mail/?view=cm&to=${email}&su=${subject}&body=${body}`
+    );
+  }
+}, []);
 
 const Home = () => {
   return (
@@ -62,7 +85,7 @@ const Home = () => {
 
         <motion.a
           target="_blank"
-          href="https://mail.google.com/mail/?view=cm&to=contact@keilethcxst.com" 
+          href={contactLink}
           className="inline-flex font-britti items-center text-lg border text-black bg-white px-6 py-3 rounded-full"
           variants={textVariants}
         >

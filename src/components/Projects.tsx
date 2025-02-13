@@ -101,9 +101,9 @@ const Projects = ({ hiddenWork }) => {
   }, [selectedProject]);
 
   return (
-    <div id="work" className="bg-[#0A0A0B] text-white min-h-screen flex flex-col items-center p-4 lg:p-20">
-      <h2 className="text-4xl font-britti font-medium mb-8 self-center md:ms-24 2xl:ms-1">Projects</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-5xl">
+    <div id="projects" className="bg-[#0A0A0B] text-white min-h-screen flex flex-col items-center p-4 lg:p-20">
+      <h2 className="text-4xl font-britti font-medium mb-8 self-center md:ml-2 md:ms-24 2xl:ms-1">Projects</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-5xl 2xl: min-w-[90vw]">
         {projects.map((project, index) => (
           <motion.div
             key={index}
@@ -114,7 +114,7 @@ const Projects = ({ hiddenWork }) => {
             transition={{ duration: 0.5, ease: "easeOut" }}
           >
             <div className={`space-y-2 ${hiddenWork && "hidden"}`}>
-              <div className="relative w-full h-64">
+              <div className="relative rounded-lg w-full h-64 2xl:h-[50vh]">
                 {loadingImages[index] !== false && (
                   <Skeleton
                     className="absolute inset-0 w-full h-full"
@@ -125,7 +125,7 @@ const Projects = ({ hiddenWork }) => {
                 )}
                 <img
                   src={project.images[0]}
-                  className={`w-full h-64 object-cover rounded-lg transition-opacity duration-500 ${
+                  className={`w-full h-64 2xl:h-[50vh] object-cover rounded-lg transition-opacity duration-500 ${
                     loadingImages[index] !== false ? "opacity-0" : "opacity-100"
                   }`}
                   onLoad={() => handleImageLoad(index)}

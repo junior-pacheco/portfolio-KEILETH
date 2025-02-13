@@ -29,7 +29,7 @@ const Header = ({ open, setopenMenu }) => {
       >
         <div className="h-full flex items-center w-full justify-around px-6">
           <div className="flex items-center">
-            <div className="md:h-10 md:w-32 2xl:h-10 2xl:w-22 h-[4vh] w-[18vw] overflow-hidden">
+            <div className="md:h-10 flex justify-center items-center md:w-32 2xl:h-10 2xl:w-22 h-[4vh] w-[18vw] overflow-hidden">
               <img
                 src="/img/Recurso 2.png"
                 alt="Logo"

@@ -31,7 +31,7 @@ const Header = ({ open, setopenMenu }) => {
           <div className="flex items-center">
             <div className="md:h-10 md:w-32 2xl:h-10 2xl:w-22 h-[4vh] w-[18vw] overflow-hidden">
               <img
-                src="/public/img/Recurso 2.png"
+                src="/img/Recurso 2.png"
                 alt="Logo"
                 className="h-full w-full object-contain"
               />

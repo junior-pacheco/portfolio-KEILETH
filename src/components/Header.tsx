@@ -33,7 +33,7 @@ const Header = ({ open, setopenMenu }) => {
               <img
                 src="/img/Recurso 2.png"
                 alt="Logo"
-                className="h-full w-full object-contain"
+                className="h-[5vh] w-[5vw] object-contain"
               />
             </div>
           </div>

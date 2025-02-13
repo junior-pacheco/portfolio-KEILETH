@@ -19,7 +19,7 @@
 @font-face {
   font-family: 'MiFuente';
   src: url('/fonts/britti-sans-semibold.woff') format('opentype');
-  font-weight: 500; /* SemiBold */
+  font-weight: 600; /* SemiBold */
   font-style: normal;
 }
 

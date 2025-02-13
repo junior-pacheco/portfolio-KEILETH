@@ -27,7 +27,7 @@ const Home = () => {
         </motion.span>
 
         <motion.h1
-          className="text-4xl font-britti font-medium md:text-5xl lg:text-7xl 2xl:text-9xl"
+          className="text-4xl font-britti font-medium md:text-7xl lg:text-7xl 2xl:text-9xl"
           variants={textVariants}
         >
           Crafting Identities,
@@ -41,7 +41,7 @@ const Home = () => {
         </motion.p>
 
         <motion.p
-          className="text-xs font-britti text-center md:text-sm lg:text-sm w-full mb-12"
+          className="text-xs font-britti text-center md:text-sm lg:text-sm w-full mb-8"
           variants={textVariants}
         >
           <span className="md:block 2xl:block">

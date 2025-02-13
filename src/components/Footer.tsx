@@ -15,7 +15,7 @@ const Footer = () => {
     
     <div className="col-span-2 w-[50vw] row-span-2 flex flex-col font-britti">
       <a   target="_blank"  href="https://x.com/keilethh?t=j9BbsKbFkl_y3zWyUKWcjQ&s=09" className="cursor-pointer">X / TWITTER</a>
-      <a   target="_blank"  className="cursor-pointer">DRIBBBLE</a>
+      <a   target="_blank"  href="https://dribbble.com/keilethcxst" className="cursor-pointer">DRIBBBLE</a>
       <a   target="_blank"  href="https://www.behance.net/keilethh" className="cursor-pointer">BEHANCE</a>
     </div>
 
@@ -43,7 +43,7 @@ const Footer = () => {
     <footer id="contact" className="bg-black text-gray-400 py-6 px-8 h-[40vh] 2xl:h-[30vh] flex justify-between items-center relative">
     <div className="flex ms-12 2xl:ms-20 font-britti flex-col w-[15%] text-sm">
       <a   target="_blank"  href="https://x.com/keilethh?t=j9BbsKbFkl_y3zWyUKWcjQ&s=09" className="cursor-pointer">X / TWITTER</a>
-      <a className="cursor-pointer">DRIBBBLE</a>
+      <a   target="_blank"  href="https://dribbble.com/keilethcxst" className="cursor-pointer">DRIBBBLE</a>
       <a   target="_blank"  href="https://www.behance.net/keilethh" className="cursor-pointer">BEHANCE</a>
     </div>
 

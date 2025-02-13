@@ -27,13 +27,13 @@ const Header = ({ open, setopenMenu }) => {
           isScrolled ? "backdrop-blur-md" : ""
         }`}
       >
-        <div className="h-full gap-6 flex items-center w-full justify-center px-6">
+        <div className="h-full flex items-center w-full justify-around px-6">
           <div className="flex items-center">
-            <div className="md:h-10 md:w-32 2xl:h-10 2xl:w-22 h-[4vh] w-[18vw] rounded-full overflow-hidden">
+            <div className="md:h-10 md:w-32 2xl:h-10 2xl:w-22 h-[4vh] w-[18vw] overflow-hidden">
               <img
-                src="https://framerusercontent.com/images/IlAn0gwm3XlPsx8NPuQPsHNwo0Y.png"
+                src="/public/img/Recurso 2.png"
                 alt="Logo"
-                className="h-full w-full object-cover"
+                className="h-full w-full object-contain"
               />
             </div>
           </div>
@@ -51,7 +51,7 @@ const Header = ({ open, setopenMenu }) => {
                     section.scrollIntoView({ behavior: "smooth" });
                   }
                 }}
-                className="relative group text-base font-medium text-gray-300 hover:text-white flex items-center"
+                className="relative group text-base font-britti font-medium text-gray-300 hover:text-white flex items-center"
               >
                 <span className="relative h-[1.2em] overflow-hidden">
                   <span className="block group-hover:animate-cylinder">{text}</span>
@@ -99,7 +99,7 @@ const Header = ({ open, setopenMenu }) => {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -50, opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
-            className="fixed overflow-x-hidden overflow-y-hidden top-0 left-0 w-screen h-[calc(100vh-1px)] bg-[#282828] text-white flex items-center justify-center text-lg"
+            className="fixed font-britti overflow-x-hidden overflow-y-hidden top-0 left-0 w-screen h-[calc(100vh-1px)] bg-[#282828] text-white flex items-center justify-center text-lg"
           >
             <div className="flex flex-col w-[70%]">
               <div className="flex flex-col items-start p-6 justify-center w-full h-[80%] mt-56">
@@ -129,7 +129,7 @@ const Header = ({ open, setopenMenu }) => {
               </div>
             </div>
             <div className="w-[31%] -rotate-90 relative">
-              <h1 className="text-[9rem] tracking-widest font-bold uppercase absolute top-1/2 left-[55%] -translate-x-1/2 -translate-y-1/2 opacity-20">
+              <h1 className="text-[9rem] tracking-widest font-medium uppercase absolute top-1/2 left-[55%] -translate-x-1/2 -translate-y-1/2 opacity-20">
                 KEILETH
               </h1>
             </div>

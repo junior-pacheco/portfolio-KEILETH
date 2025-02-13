@@ -102,7 +102,7 @@ const Work = ({ hiddenWork }) => {
 
   return (
     <div id="work" className="bg-[#0A0A0B] text-white min-h-screen flex flex-col items-center p-4 lg:p-20">
-      <h2 className="text-4xl font-britti font-bold mb-8 self-start md:ms-24 2xl:ms-96">Work</h2>
+      <h2 className="text-4xl font-britti font-medium mb-8 self-center md:ms-24 2xl:ms-1">Work</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-5xl">
         {projects.map((project, index) => (
           <motion.div
@@ -135,7 +135,7 @@ const Work = ({ hiddenWork }) => {
             </div>
             <div className={`space-y-2 ${hiddenWork && "hidden"}`}>
               <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-80 p-4 rounded-b-lg">
-                <h3 className="text-lg font-britti font-bold">{project.title}</h3>
+                <h3 className="text-lg font-britti font-medium">{project.title}</h3>
                 <p className="text-sm font-britti text-gray-400">{project.tools.join(" • ")}</p>
               </div>
             </div>
@@ -159,7 +159,7 @@ const Work = ({ hiddenWork }) => {
               ✖
             </button>
             <motion.h2
-              className="text-3xl font-britti font-bold mb-4"
+              className="text-3xl font-britti font-medium mb-4"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: 0.2 }}

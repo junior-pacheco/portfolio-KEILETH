@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Home from "./components/Home";
-import Work from "./components/Work";
+import Projects from "./components/Projects";
 
 const App = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -28,7 +28,7 @@ const App = () => {
       <Header open={openMenu} setopenMenu={onOpenHandler} />
       <main>
         <Home />
-        <Work hiddenWork={openMenu} />
+        <Projects hiddenWork={openMenu} />
       </main>
       <Footer />
     </div>

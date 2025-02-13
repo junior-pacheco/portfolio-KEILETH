@@ -40,7 +40,7 @@ const Header = ({ open, setopenMenu }) => {
 
           {/* Menú en PC */}
           <div className="hidden lg:flex space-x-8">
-            {["Me", "Work", "Contact"].map((text, index) => (
+            {["Me", "Projects", "Contact"].map((text, index) => (
               <a
                 key={index}
                 href={`#${text.toLowerCase()}`}
@@ -103,7 +103,7 @@ const Header = ({ open, setopenMenu }) => {
           >
             <div className="flex flex-col w-[70%]">
               <div className="flex flex-col items-start p-6 justify-center w-full h-[80%] mt-56">
-                {["Me", "Work", "Contact"].map((text, index) => (
+                {["Me", "Projects", "Contact"].map((text, index) => (
                   <a
                     key={index}
                     href={`#${text.toLowerCase()}`}

@@ -69,7 +69,7 @@ type Project = {
 };
 
 
-const Work = ({ hiddenWork }) => {
+const Projects = ({ hiddenWork }) => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [loadingImages, setLoadingImages] = useState({});
 
@@ -102,7 +102,7 @@ const Work = ({ hiddenWork }) => {
 
   return (
     <div id="work" className="bg-[#0A0A0B] text-white min-h-screen flex flex-col items-center p-4 lg:p-20">
-      <h2 className="text-4xl font-britti font-medium mb-8 self-center md:ms-24 2xl:ms-1">Work</h2>
+      <h2 className="text-4xl font-britti font-medium mb-8 self-center md:ms-24 2xl:ms-1">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-5xl">
         {projects.map((project, index) => (
           <motion.div
@@ -200,6 +200,6 @@ const Work = ({ hiddenWork }) => {
 };
 
 
-export default Work;
+export default Projects;
 
 

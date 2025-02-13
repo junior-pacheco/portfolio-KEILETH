@@ -14,9 +14,9 @@ const Footer = () => {
   <div className="grid grid-cols-5 grid-rows-5 gap-5">
     
     <div className="col-span-2 w-[50vw] row-span-2 flex flex-col font-britti">
-      <a   target="_blank"  href="https://x.com/keilethh?t=j9BbsKbFkl_y3zWyUKWcjQ&s=09" className="cursor-pointer">X / TWITTER</a>
-      <a   target="_blank"  href="https://dribbble.com/keilethcxst" className="cursor-pointer">DRIBBBLE</a>
-      <a   target="_blank"  href="https://www.behance.net/keilethh" className="cursor-pointer">BEHANCE</a>
+      <a   target="_blank"  href="https://x.com/keilethh?t=j9BbsKbFkl_y3zWyUKWcjQ&s=09"  className="cursor-pointer max-w-fit">X / TWITTER</a>
+      <a   target="_blank"  href="https://dribbble.com/keilethcxst" className="cursor-pointer max-w-fit">DRIBBBLE</a>
+      <a   target="_blank"  href="https://www.behance.net/keilethh" className="cursor-pointer max-w-fit">BEHANCE</a>
     </div>
 
     <div className="col-span-2 row-span-2 text-white font-britti font-medium text-lg col-start-1 row-start-3 flex flex-col justify-center">
@@ -28,9 +28,9 @@ const Footer = () => {
     </div>
 
     <div className="col-span-2  w-[50vw] font-britti row-span-2 col-start-3 row-start-1 flex flex-col">
-      <a   target="_blank"  href="https://www.behance.net/gallery/197199047/30-LOGOS-MARKS"  className="cursor-pointer">30 LOGOS & MARKS</a>
-      <a   target="_blank"  href="https://www.behance.net/gallery/162463949/Logofolio-Vol-01-2023"  className="cursor-pointer">Logofolio Vol. 01</a>
-      <a   target="_blank"  href="https://www.behance.net/gallery/215514439/(16)-LOGOS-MARKS"  className="cursor-pointer">(16) Logos & Marks</a>
+      <a   target="_blank"  href="https://www.behance.net/gallery/197199047/30-LOGOS-MARKS"  className="cursor-pointer max-w-fit">30 LOGOS & MARKS</a>
+      <a   target="_blank"  href="https://www.behance.net/gallery/162463949/Logofolio-Vol-01-2023"  className="cursor-pointer max-w-fit">Logofolio Vol. 01</a>
+      <a   target="_blank"  href="https://www.behance.net/gallery/215514439/(16)-LOGOS-MARKS"  className="cursor-pointer max-w-fit">(16) Logos & Marks</a>
     </div>
 
     <div className="col-span-2 w-[55vw]  col-start-3 font-britti row-start-5 flex  text-[13px] flex-col items-center justify-center">

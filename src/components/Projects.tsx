@@ -16,9 +16,9 @@ const projects = [
   },
   {
     images: [
+      "/img/Grafft (3).jpg",
       "/img/Grafft (1).jpg",
       "/img/Grafft (2).jpg",
-      "/img/Grafft (3).jpg",
       "/img/Grafft (4).jpg"
     ],
     title: "Grafft",
@@ -26,20 +26,20 @@ const projects = [
   },
   {
     images: [
+      "/img/Novum (4).jpg",
+      "/img/Novum (3).jpg",
       "/img/Novum (1).jpg",
       "/img/Novum (2).jpg",
-      "/img/Novum (3).jpg",
-      "/img/Novum (4).jpg"
     ],
     title: "Novum",
     tools: ["Branding","logo"],
   },
   {
     images: [
-      "/img/Recove (1).jpg",
+      "/img/Recove (4).jpg",
       "/img/Recove (2).jpg",
+      "/img/Recove (1).jpg",
       "/img/Recove (3).jpg",
-      "/img/Recove (4).jpg"
     ],
     title: "Recove",
     tools: ["Branding","logo"],

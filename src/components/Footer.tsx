@@ -42,15 +42,15 @@ const Footer = () => {
   ) : (
     <footer id="contact" className="bg-black text-gray-400 py-6 px-8 h-[40vh] 2xl:h-[30vh] flex justify-between items-center relative">
     <div className="flex ms-12 2xl:ms-20 font-britti flex-col w-[15%] text-sm">
-      <a   target="_blank"  href="https://x.com/keilethh?t=j9BbsKbFkl_y3zWyUKWcjQ&s=09" className="cursor-pointer">X / TWITTER</a>
-      <a   target="_blank"  href="https://dribbble.com/keilethcxst" className="cursor-pointer">DRIBBBLE</a>
-      <a   target="_blank"  href="https://www.behance.net/keilethh" className="cursor-pointer">BEHANCE</a>
+      <a   target="_blank"  href="https://x.com/keilethh?t=j9BbsKbFkl_y3zWyUKWcjQ&s=09" className="cursor-pointer max-w-[80px]">X / TWITTER</a>
+      <a   target="_blank"  href="https://dribbble.com/keilethcxst" className="cursor-pointer max-w-[70px]">DRIBBBLE</a>
+      <a   target="_blank"  href="https://www.behance.net/keilethh" className="cursor-pointer max-w-[70px]">BEHANCE</a>
     </div>
 
-    <div className="flex font-britti w-[65%] flex-col text-sm text-start">
-      <a   target="_blank"  href="https://www.behance.net/gallery/197199047/30-LOGOS-MARKS"  className="cursor-pointer">30 LOGOS & MARKS</a>
-      <a   target="_blank"  href="https://www.behance.net/gallery/162463949/Logofolio-Vol-01-2023"  className="cursor-pointer">Logofolio Vol. 01</a>
-      <a   target="_blank"  href="https://www.behance.net/gallery/215514439/(16)-LOGOS-MARKS"  className="cursor-pointer">(16) Logos & Marks</a>
+    <div className="flex font-britti w-[65%] flex-col  text-sm text-start">
+      <a   target="_blank"  href="https://www.behance.net/gallery/197199047/30-LOGOS-MARKS"  className="cursor-pointer max-w-[130px]">30 LOGOS & MARKS</a>
+      <a   target="_blank"  href="https://www.behance.net/gallery/162463949/Logofolio-Vol-01-2023"  className="cursor-pointer max-w-[100px]">Logofolio Vol. 01</a>
+      <a   target="_blank"  href="https://www.behance.net/gallery/215514439/(16)-LOGOS-MARKS"  className="cursor-pointer max-w-[120px]">(16) Logos & Marks</a>
     </div>
 
     <div className="flex flex-col md:justify-center 2xl:justify-end mt-14 font-britti font-medium md:h-[80%] text-white items-center w-[20%] text-center leading-none">

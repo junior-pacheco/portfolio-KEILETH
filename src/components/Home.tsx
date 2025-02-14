@@ -43,24 +43,22 @@ const Home = () => {
         </motion.p>
 
         <motion.p
-          className="text-xs font-britti text-center md:text-sm lg:text-sm w-full mb-8"
+          className="text-xs font-britti text-center md:text-sm lg:text-sm w-full mb-8 whitespace-normal md:whitespace-pre-line break-words"
           variants={textVariants}
         >
           <span className="md:block 2xl:block">
             Digital designer specializing in creating impactful brands and strategic visual experiences. I blend creativity and strategy to develop memorable identities
           </span>
           <span className="md:block 2xl:block">
-            that truly connect with audiences. With proficiency in English and Spanish, I transform ideas into effective visual solutions. Additionally, I specialize in
+            that truly connect with audiences. With proficiency in English and Spanish, I transform ideas into effective visual solutions. Additionally, I specialize in‎   
           </span>
           <span className="md:block 2xl:block">
-            web design, crafting visually appealing and functional interfaces that enhance a brand’s digital presence. My goal is to merge aesthetics and usability to 
+          ‎ ‎ web design, crafting visually appealing and functional interfaces that enhance a brand’s digital presence. My goal is to merge aesthetics and usability to 
           </span>
           <span className="md:block 2xl:block">
             tell stories that leave a lasting impression.
           </span>
         </motion.p>
-
-           
 
         <motion.a
           target="_blank"

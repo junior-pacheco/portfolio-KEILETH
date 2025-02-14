@@ -50,10 +50,10 @@ const Home = () => {
             Digital designer specializing in creating impactful brands and strategic visual experiences. I blend creativity and strategy to develop memorable identities
           </span>
           <span className="md:block 2xl:block">
-            that truly connect with audiences. With proficiency in English and Spanish, I transform ideas into effective visual solutions. Additionally, I specialize in web
+            that truly connect with audiences. With proficiency in English and Spanish, I transform ideas into effective visual solutions. Additionally, I specialize in
           </span>
           <span className="md:block 2xl:block">
-           web design, crafting visually appealing and functional interfaces that enhance a brand’s digital presence. My goal is to merge aesthetics and usability to 
+            web design, crafting visually appealing and functional interfaces that enhance a brand’s digital presence. My goal is to merge aesthetics and usability to 
           </span>
           <span className="md:block 2xl:block">
             tell stories that leave a lasting impression.

@@ -102,7 +102,7 @@ const Projects = ({ hiddenWork }) => {
 
   return (
     <div id="projects" className="bg-[#0A0A0B] text-white min-h-screen flex flex-col items-center p-4 lg:p-20">
-      <h2 className="text-4xl font-britti font-medium mb-8 self-center md:ml-2 md:ms-24 2xl:ms-1">Projects</h2>
+      <h2 className="text-4xl font-britti font-medium mb-8 self-center md:ml-2 md:ms- 2xl:ms-1">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-5xl 2xl: min-w-[90vw]">
         {projects.map((project, index) => (
           <motion.div

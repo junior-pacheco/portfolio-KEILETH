@@ -65,7 +65,7 @@ const Home = () => {
           href={
             window.innerWidth <= 768
               ? "mailto:contact@keilethcxst.com"
-              : "https://mail.google.com/mail/?view=cm&to=contact@keilethcxst.com"
+              : "https://mail.google.com/mail/?view=cm&to=keilethcxst@gmail.com"
           }
           className="inline-flex font-britti items-center text-lg border text-black bg-white px-6 py-3 rounded-full"
           variants={textVariants}

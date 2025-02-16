@@ -125,6 +125,7 @@ const Projects = ({ hiddenWork }) => {
                 )}
                 <img
                   src={project.images[0]}
+                  alt="projects images"
                   className={`w-full h-64 2xl:h-[50vh] object-cover rounded-lg transition-opacity duration-500 ${
                     loadingImages[index] !== false ? "opacity-0" : "opacity-100"
                   }`}
@@ -186,6 +187,7 @@ const Projects = ({ hiddenWork }) => {
                 >
                   <img
                     src={image}
+                    alt="projects images"
                     className="w-full h-72 rounded-lg object-contain transition-opacity duration-500"
                     onLoad={() => handleImageLoad(i)}
                   />
